@@ -17,3 +17,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+// https://gaudion.dev/blog/setup-google-analytics-with-gdpr-compliant-cookie-consent-in-nextjs13
