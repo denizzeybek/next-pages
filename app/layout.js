@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <GoogleAnalytics GA_MEASUREMENT_ID="G-HX2MBT8RZM" />
+      <GoogleAnalytics GA_MEASUREMENT_ID="G-SDD0E8Q8R9" />
       <body>
         {children}
         <CookieBanner />
