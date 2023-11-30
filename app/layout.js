@@ -1,4 +1,5 @@
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import CookieBanner from '@/components/CookieBanner';
 
 export const metadata = {
   title: 'Next.js',
@@ -8,8 +9,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <GoogleAnalytics GA_MEASUREMENT_ID='G-HX2MBT8RZM'/>
-      <body>{children}</body>
+      <GoogleAnalytics GA_MEASUREMENT_ID="G-HX2MBT8RZM" />
+      <body>
+        {children}
+        <CookieBanner />
+      </body>
     </html>
   );
 }
